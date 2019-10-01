@@ -16,3 +16,8 @@ name = "Abraham"
 
 # bool
 status = True
+
+# Вывод
+print("Что нужно вывести")
+print(555)
+print(name)
