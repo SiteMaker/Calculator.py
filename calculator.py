@@ -14,15 +14,23 @@ print(Back.CYAN)
 a = float(input("Первое число: "))
 b = float(input("Второе число: "))
 print(Back.GREEN)
-op = input("Операция (+, -): ")
+op = input("Операция (+, -, *, /, %): ")
 
 c = "Результат: "
 if op == "+":
     c += str(a + b)
 elif op == "-":
     c += str(a - b)
+elif op == "*":
+    c += str(a * b)
+elif op == "/":
+    c += str(a / b)
+elif op == "%":
+    c += str(a % b)
 else:
     c = "Ошибка: неверная операция"
 
 print(Back.YELLOW)
 print(c)
+
+input()
